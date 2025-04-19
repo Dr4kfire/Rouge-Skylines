@@ -10,6 +10,11 @@
 
 using namespace std;
 
+#ifndef ASSETS_PATH
+#define ASSETS_PATH
+#endif // ASSETS_PATH
+
+
 static string createGrid(vector<Building> bldngs, const int size[], char emptyIcon = ' ') {
 	string grid = "  .  ";
 	const string ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -114,7 +119,7 @@ int main()
 	SetTargetFPS(60);
 
 	TxtInput consoleInput(11, SCREEN_SIZE);
-	Font monospaced = LoadFont("assets/Peaberry-Mono.otf"); // DEBUG: ../assets/Peaberry-Mono.otf
+	Font monospaced = LoadFont(ASSETS_PATH"Peaberry-Mono.otf"); // DEBUG: ../assets/Peaberry-Mono.otf
 
 	string display;
 
