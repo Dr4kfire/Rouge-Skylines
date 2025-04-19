@@ -6,7 +6,7 @@
 
 Rouge Skylines is a console-based roguelike city-building game written in C++ and powered by [Raylib](https://www.raylib.com/) for graphics and input. This project was crafted from scratch over two weeks as part of a class assignment.
 
----
+
 
 ## ✨ Key Highlights
 
@@ -15,13 +15,13 @@ Rouge Skylines is a console-based roguelike city-building game written in C++ an
 - 🎨 **Raylib Integration:** Simple 2D rendering and input handling.
 - ⏱️ **Rapid Development:** Completed in just 14 days!
 
----
+
 
 ## 🛡️ License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
----
+
 
 *Happy city-building and may your skylines stand tall!* 🎉
 
